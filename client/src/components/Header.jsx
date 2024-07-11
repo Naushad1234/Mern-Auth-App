@@ -9,15 +9,15 @@ function Header() {
           <h1 className="font-bold">Portfolio App</h1>
         </Link>
         <ul className="flex gap-4">
-          <Link to="/">
-            <li>Home</li>
-          </Link>
-          <Link to="about">
-            <li>About</li>
-          </Link>
-          <Link to="signin">
-            <li>Sign In</li>
-          </Link>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/signin">Sign In</Link>
+          </li>
         </ul>
       </div>
     </div>
